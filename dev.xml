@@ -7,9 +7,9 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/analogdevicesinc" name="adigithub"/>
 
-  <project remote="yocto" revision="54af8c5e80ebf63707ef4e51cc9d374f716da603" name="poky" path="sources/poky"/> <!-- kirkstone revision -->
-  <project remote="oe" revision="730e44900a0a86265bad93a16b5a5ff344a07266" name="meta-openembedded" path="sources/meta-openembedded"/> <!-- kirkstone revision -->
-  <project remote="yocto" revision="b187fb9232ca0a6b5f8f90b4715958546fc41d73" name="meta-arm" path="sources/meta-arm"/> <!-- kirkstone revision -->
+  <project remote="yocto" revision="b5624ee5643d881afa004571a096a189ab5389b5" name="poky" path="sources/poky"/> <!-- scarthgap revision -->
+  <project remote="oe" revision="5f50417498394f2ddfb5900aced6b2777daf82c8" name="meta-openembedded" path="sources/meta-openembedded"/> <!-- master revision -->
+  <project remote="yocto" revision="aba9250494f62360c1ec8021f81922c005d92b82" name="meta-arm" path="sources/meta-arm"/> <!-- master revision -->
 
   <project remote="adigithub" revision="dev" name="lnxdsp-adi-meta" path="sources/meta-adi"/>
   <project remote="adigithub" revision="dev" name="lnxdsp-scripts" path="sources">
