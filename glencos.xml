@@ -31,10 +31,25 @@
     path="sources/meta-arm"
     />
 
-  <project remote="adigithub" revision="glencos+jupyter" name="lnxdsp-adi-meta" path="sources/meta-adi"/>
+  <!-- glencos branch -->
+  <project
+    remote="adigithub"
+    revision="glencos+jupyter"
+    name="lnxdsp-adi-meta"
+    path="sources/meta-adi"
+    sync-s="true"
+    />
+
   <project remote="adigithub" revision="refs/tags/3.1.0-rel" name="lnxdsp-scripts" path="sources">
 	  <linkfile dest="setup-environment" src="setup-environment"/>
   </project>>
-  <project remote="adigithub" revision="refs/tags/3.1.0-rel" name="lnxdsp-adi-security-meta" path="sources/meta-adi-security"/>
+
+  <!-- scarthgap branch -->
+  <project
+    remote="adigithub"
+    revision="yocto_5"
+    name="lnxdsp-adi-security-meta"
+    path="sources/meta-adi-security"
+    />
 
 </manifest>
