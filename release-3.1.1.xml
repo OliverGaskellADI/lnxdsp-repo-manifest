@@ -15,6 +15,6 @@
   <project remote="adigithub" revision="refs/tags/3.1.0-rel" name="lnxdsp-scripts" path="sources">
 	  <linkfile dest="setup-environment" src="setup-environment"/>
   </project>>
-  <project remote="adigithub" revision="refs/tags/3.1.0-rel" name="lnxdsp-adi-security-meta" path="sources/meta-adi-security"/>
+  <project remote="adigithub" revision="refs/tags/3.1.1-rel" name="lnxdsp-adi-security-meta" path="sources/meta-adi-security"/>
 
 </manifest>
